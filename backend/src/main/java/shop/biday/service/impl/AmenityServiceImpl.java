@@ -42,6 +42,11 @@ public class AmenityServiceImpl implements AmenityService {
     }
 
     @Override
+    public void update(AmenityModel entity) {
+        amenityRepository.save(entity.toEntity());
+    }
+
+    @Override
     public void deleteById(Long id) {
         amenityRepository.deleteById(id);
     }

@@ -49,7 +49,9 @@ export default function Home() { // default 2개일 수는 없음
 
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
-            <button className="tounded-full ..." onClick={() => router.push("/amenities/insert")}>Go Save</button>
+            <>
+                <button className="tounded-full ..." onClick={() => router.push("/amenities/insert")}>Go Save</button>
+            </>
             <table className="table-auto">
                 <thead>
                 <tr className="border border-indigo-600">

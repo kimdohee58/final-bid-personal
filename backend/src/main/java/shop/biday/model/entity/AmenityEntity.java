@@ -20,6 +20,6 @@ public class AmenityEntity {
 
     private String name;
 
-    @OneToMany(mappedBy = "amenity")
-    private List<DamenityEntity> dormAmenities;
+//    @OneToMany(mappedBy = "amenity")
+//    private List<DamenityEntity> dormAmenities;
 }

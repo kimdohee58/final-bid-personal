@@ -14,5 +14,6 @@ public interface AmenityService {
     Optional<AmenityEntity> findById(Long id);
     boolean existsById(Long id);
     long count();
+    void update(AmenityModel amenityModel);
     void deleteById(Long id);
 }
